@@ -1,0 +1,18 @@
+Solve the problem [JavaScript]
+Given an amount of money, and a set of possible coins, create a function that returns the minimum number of coins needed to make that amount. Note that if there exists no combination to do so, the function must return -1.
+
+Example 1:
+
+Input: amount = 15, coins = {2, 3, 7}
+
+Output: 4
+
+Explanation: we can make 15 by taking a coin of value 7, two coins of value 3, a coin of value 2.
+
+Example 2:
+
+Input: amount = 34, coins = {5, 13}
+
+Output: -1
+
+Explanation: there is no combination of coins to make 34.

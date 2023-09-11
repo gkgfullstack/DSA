@@ -1,0 +1,18 @@
+Solve the problem [JavaScript]
+Given two words as strings word1 and word2, create a function that returns the minimum number of operations required to convert word1 to word2. Note that we have 3 possible operations, we can either insert a character, or remove a character, or replace a character.
+
+Example 1:
+
+Input: str1 = "inside", str2 = "index"
+
+Output: 3
+
+Explanation: to convert "inside" to "index", we need 3 operations, we remove the 's', we remove the 'i', and we insert 'x' (inside -> inide -> inde -> index)
+
+Example 2:
+
+Input: str1 = "eagles", str2 = "algiers"
+
+Output: 4
+
+Explanation: to convert "eagles" to "algiers", we need 4 operations, we remove the 'e', we insert 'l', we replace the second 'l' by 'i', and we insert 'r' (eagles -> agles -> algles -> algies -> algiers)

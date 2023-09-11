@@ -1,0 +1,24 @@
+Solve the problem [JavaScript]
+Given a board of characters and a string word, create a boolean function that checks if we can find the word in the board. Note that the word must be made with adjacent cells (horizontal and vertical neighbours), and that the same cell can be used only once.
+
+Example 1:
+
+Input: board = [['K','I','N','T'], ['B','I','N','S'], ['G','N','Y','I'], ['U','O','E','D'], ['D','I','B','V'], ['H','I','R','T']], word = "INSIDE"
+
+Output: true
+
+Explanation:
+
+<img src="https://cdn.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1500/https://www.filepicker.io/api/file/Pr4IYklOQiOgdnH1gdbj">
+
+
+
+
+
+Example 2:
+
+Input: board = [['K','I','N','T'], ['B','I','N','S'], ['G','N','Y','I'], ['U','O','E','D'], ['D','I','B','V'], ['H','I','R','T']], word = "CODE"
+
+Output: false
+
+Explanation: the string "CODE" doesn't exist in the board

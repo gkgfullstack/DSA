@@ -1,0 +1,26 @@
+Solve the problem [JavaScript]
+Given a string str made of digits, create a function that returns with how many ways we can decode it, knowing that 1 is decoded as the letter A, 2 is decoded as the letter B, and so on until 26 that is decoded as the letter Z.
+
+Example 1:
+
+Input: str = "6324120129"
+
+Output: 4
+
+Explanation: we can decode the string as "FCBDATABI" (6 3 2 4 1 20 1 2 9), or "FCBDATLI" (6 3 2 4 1 20 12 9), or "FCXATABI" (6 3 24 1 20 1 2 9), or "FCXATLI" (6 3 24 1 20 12 9)
+
+Example 2:
+
+Input: str = "12"
+
+Output: 2
+
+Explanation: we can decode the string as "AB" (1 2), or "L" (12)
+
+Example 3:
+
+Input: str = "12345"
+
+Output: 3
+
+Explanation: we can decode the string as "ABCDE" (1 2 3 4 5), or "AWDE" (1 23 4 5), or "LCDE" (12 3 4 5)

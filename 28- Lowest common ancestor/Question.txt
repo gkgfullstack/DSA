@@ -1,0 +1,39 @@
+Solve the problem [JavaScript]
+Given a binary tree root and two integers num1 and num2, create a function that returns the lowest common ancestor of num1 and num2. The lowest common ancestor is the deepest node in root that has both num1 and num2 as descendants, and we consider a node as a descendant of itself.
+Note that all values are unique and that num1 and num2 always exist in the tree.
+
+Example 1:
+
+Input: root = [4, 10, 6, 5, null, 7, 13, 2, 18, 1, null, 8, 16, 14, 9, null, null, null, null, null, null, null, null, null, null, 22, 3], num1 = 7, num2 = 16
+
+Output: 6
+
+Explanation:
+
+
+
+
+
+
+
+Example 2:
+
+Input: root = [4, 10, 6, 5, null, 7, 13, 2, 18, 1, null, 8, 16, 14, 9, null, null, null, null, null, null, null, null, null, null, 22, 3], num1 = 2, num2 = 13
+
+Output: 4
+
+Explanation:
+
+
+
+
+
+
+
+Example 3:
+
+Input: root = [4, 10, 6, 5, null, 7, 13, 2, 18, 1, null, 8, 16, 14, 9, null, null, null, null, null, null, null, null, null, null, 22, 3], num1 = 9, num2 = 18
+
+Output: 5
+
+Explanation:

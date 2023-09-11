@@ -1,0 +1,12 @@
+Solve the problem [JavaScript]
+Given a binary search tree root, and an integer num, create a function that deletes the node that contains num then returns root.
+
+Example 1:
+
+Input: root = [12, 3, 23, 2, 5, 15, 38, null, null, 4, 10, null, null, null, null, null, null, 8, 11, 7, null, null, null], num = 5
+
+Output: [12, 3, 23, 2, 7, 15, 38, null, null, 4, 10, null, null, null, null, null, null, 8, 11]
+
+Explanation:
+<img src="https://cdn.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1500/https://www.filepicker.io/api/file/9mqMX8BQWusJxaDiRNSZ">
+<img src="https://cdn.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1500/https://www.filepicker.io/api/file/wIsjLV3nRS6jhPbtKUW6">

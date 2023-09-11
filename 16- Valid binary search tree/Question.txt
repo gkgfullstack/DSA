@@ -1,0 +1,24 @@
+Solve the problem [JavaScript]
+Given a binary tree root, create a boolean function that checks if it's a binary search tree. Note that in a binary search tree, every node must be strictly greater than all nodes on its left subtree, and strictly smaller than all nodes on its right subtree.
+
+Example 1:
+
+Input: root = [16, 8, 22, 3, 11, null, null, 1, 6]
+
+Output: true
+
+Explanation: every node is strictly greater than all nodes on its left subtree, and strictly smaller than all nodes on its right subtree
+
+
+
+
+
+
+
+Example 2:
+
+Input: root = [16, 8, 22, 3, 19, null, null, 1, 6]
+
+Output: false
+
+Explanation: it's not a valid binary search tree because 16 is smaller than 19

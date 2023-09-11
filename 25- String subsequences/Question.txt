@@ -1,0 +1,10 @@
+Solve the problem [JavaScript]
+Given a string str, create a function that returns all its possible subsequences, the order doesn't matter.
+
+Example 1:
+
+Input: str = "abcd"
+
+Output: ["abcd", "abc", "abd", "ab", "acd", "ac", "ad", "a", "bcd", "bc", "bd", "b", "cd", "c", "d", ""]
+
+Explanation:

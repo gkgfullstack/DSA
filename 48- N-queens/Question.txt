@@ -1,0 +1,16 @@
+Solve the problem [JavaScript]
+Given a positive integer n, create a function that returns the number of possible ways to put n queens in an n*n chessboard such that no two queens attack each other.
+Note that two queens attack each other when they are on the same row, column, or diagonal.
+
+Example 1:
+
+Input: n = 4
+
+Output: 2
+
+Explanation:
+
+<img src="https://cdn.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:1500/https://www.filepicker.io/api/file/2VuxwRCDTbmsSEs2Fybi">
+
+
+

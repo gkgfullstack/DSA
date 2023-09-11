@@ -1,0 +1,13 @@
+Solve the problem [JavaScript]
+Given an array of intervals, create a function that returns an array where overlapping intervals are merged.
+
+Example 1:
+
+Input: intervals = [[1, 4], [5, 8], [7, 10], [9, 13], [14, 16], [16, 20], [17, 19]]
+
+Output: [[1, 4], [5, 13], [14, 20]]
+
+Explanation:
+<img src="https://cdn.fs.teachablecdn.com/resize=width:1500/na1xqHS7Oj642uQmNQlg">
+
+

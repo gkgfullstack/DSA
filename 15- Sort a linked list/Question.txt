@@ -1,0 +1,9 @@
+Solve the problem [JavaScript]
+Given a linked list of integers list, create a function that sorts it.
+Note that the function returns nothing, the linked list must be sorted in-place.
+
+Example 1:
+
+Input: list = 4 -> 8 -> 1 -> 6 -> 2 -> 5 -> null
+
+Output: 1 -> 2 -> 4 -> 5 -> 6 -> 8 -> null

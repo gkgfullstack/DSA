@@ -1,0 +1,20 @@
+Solve the problem [JavaScript]
+Given a string str, create a function that returns the shortest palindrome that we can get by adding characters in front of str. Note that a palindrome is a string that can be read in the same way from the left and from the right.
+
+Example 1:
+
+Input: str = "acbcabcbb"
+
+Output: "bbcbacbcabcbb"
+
+Example 2:
+
+Input: str = "bcaacb"
+
+Output: "bcaacb"
+
+Example 3:
+
+Input: str = "abcd"
+
+Output: "dcbabcd"

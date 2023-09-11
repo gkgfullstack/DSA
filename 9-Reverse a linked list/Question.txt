@@ -1,0 +1,14 @@
+Solve the problem [JavaScript]
+Given a linked list of integers list, create a function that reverses it in-place without using an additional data structure.
+
+Example 1:
+
+Input: list = 5 -> 3 -> 6 -> 4 -> 7 -> null
+
+Output: 7 -> 4 -> 6 -> 3 -> 5 -> null
+
+Example 2:
+
+Input: list = 1 -> 2 -> 3 -> null
+
+Output: 3 -> 2 -> 1 -> null

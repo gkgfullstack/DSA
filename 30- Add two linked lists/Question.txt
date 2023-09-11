@@ -1,0 +1,19 @@
+Solve the problem [JavaScript]
+Given two linked lists list1 and list2 that represent two positive integers, create a function that returns the linked list that represents their sum.
+Note that the two integers don't contain any leading zero except the number 0 itself, and that each node contains one digit only, and that the digits are stored in reverse order.
+
+Example 1:
+
+Input: list1 = 3 -> 2 -> 1 -> null, list2 = 5 -> 9 -> 4 -> 3 -> null
+
+Output: 8 -> 1 -> 6 -> 3 -> null
+
+Explanation: 123 + 3495 = 3618
+
+Example 2:
+
+Input: list1 = 1 -> 6 -> 5 -> 4 -> null, list2 = 4 -> 8 -> 2 -> 7 -> 9 -> null
+
+Output: 5 -> 4 -> 8 -> 1 -> 0 -> 1 -> null
+
+Explanation: 4561 + 97284 + 101845

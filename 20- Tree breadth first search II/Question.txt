@@ -1,0 +1,10 @@
+Solve the problem [JavaScript]
+Given a binary tree of integers root, create a function that returns an array where each element represents an array that contains the elements at the level i.
+
+Example 1:
+
+Input: root = [5, 10, 3, 4, 6, null, 7, null, 8, 9, 1, 2]
+
+Output: [[5], [10, 3], [4, 6, 7], [8, 9, 1, 2]]
+
+Explanation:

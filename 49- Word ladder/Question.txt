@@ -1,0 +1,26 @@
+Solve the problem [JavaScript]
+Given two words beginWord and endWord, and a list of words wordList, create a function that returns the length of the shortest transformation sequence from beginWord to endWord.
+Note that:
+-Only one letter can be changed at a time.
+-Each intermediate word in the sequence must be in the wordList.
+-The function returns 0 if there is no possible transformation sequence.
+-All words have the same length.
+-All words contain lowercase alphabetic characters.
+-There are no duplicates in the wordList.
+-beginWord and endWord are non-empty, and they are different.
+
+Example 1:
+
+Input: beginWord = "hit", endWord = "cog", wordList = ["hot", "dot", "dog", "lot", "log", "cog"]
+
+Output: 5
+
+Explanation: one short possible transformation sequence is: "hit" -> "hot" -> "dot" -> "dog" -> "cog"
+
+Example 2:
+
+Input: beginWord = "hit", endWord = "cog", wordList = ["dot", "dog", "lot", "log", "cog"]
+
+Output: 0
+
+Explanation: there is no way to go from "hit" to "cog"
