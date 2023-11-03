@@ -14,3 +14,25 @@ function firstRepeatingCharacter(str){
 }
 
 
+function findRepeatedLetters(input) {
+  const charCount = {};
+  const repeatedLetters = [];
+
+  for (let char of input.toLowerCase()) {
+    if (char !== ' ' && charCount[char]) {
+      if (!repeatedLetters.includes(char)) {
+        repeatedLetters.push(char);
+      }
+    } else {
+      charCount[char] = true;
+    }
+  }
+
+  return repeatedLetters.join('');
+}
+
+const input = "Ganesh kumar gupta";
+const output = findRepeatedLetters(input);
+console.log(output); // Output: "gau"
+
+
