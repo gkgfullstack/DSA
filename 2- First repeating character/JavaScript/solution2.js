@@ -13,7 +13,9 @@ function firstRepeatingCharacter(str){
   return '\0';
 }
 
-
+// find repeated letter in a string 
+// input = "Ganesh kumar gupta"
+// output =  "gau"
 function findRepeatedLetters(input) {
   const charCount = {};
   const repeatedLetters = [];
